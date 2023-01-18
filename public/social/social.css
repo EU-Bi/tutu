@@ -1,0 +1,423 @@
+/* This is the project stylesheet */
+
+:root {
+  /* Colors */
+  --dark-slate-gray: rgba(45, 45, 45, 1);
+  --dark-slate-gray-2: rgba(63, 63, 63, 1);
+  --dark-slate-gray-3: rgba(49, 49, 49, 1);
+  --dark-slate-gray-4: rgba(63, 66, 63, 1);
+  --dark-slate-gray-5: rgba(40, 40, 40, 1);
+  --dark-slate-gray-6: rgba(50, 50, 50, 1);
+  --dark-slate-gray-7: rgba(70, 70, 70, 1);
+  --dim-gray: rgba(98, 98, 98, 1);
+  --gainsboro: rgba(216, 216, 216, 1);
+  --medium-sea-green: rgba(80, 221, 94, 1);
+  --olive-drab: rgba(114, 145, 63, 1);
+  --papaya-whip: rgba(254, 239, 214, 1);
+  --sandy-brown: rgba(255, 179, 65, 1);
+  --transparent-olive-drab: rgba(114, 145, 63, 0.2);
+  --transparent-olive-drab-2: rgba(114, 145, 63, 0.11);
+  --transparent-sandy-brown: rgba(255, 179, 65, 0.12);
+  --transparent-sandy-brown-2: rgba(255, 179, 65, 0.17);
+  --transparent-sandy-brown-3: rgba(255, 179, 65, 0.21);
+  --transparent-white: rgba(255, 255, 255, 0.81);
+  --white: rgba(255, 255, 255, 1);
+
+  /* Typographies */
+  /* inter-128-bold */
+  --inter-128-bold-family: "Inter";
+  --inter-128-bold-size: 128px;
+  --inter-128-bold-weight: 700;
+  --inter-128-bold-line-height: normal;
+
+  /* inter-14-regular */
+  --inter-14-regular-family: "Inter";
+  --inter-14-regular-size: 14px;
+  --inter-14-regular-weight: 400;
+  --inter-14-regular-line-height: normal;
+
+  /* inter-15-light */
+  --inter-15-light-family: "Inter";
+  --inter-15-light-size: 15px;
+  --inter-15-light-weight: 300;
+  --inter-15-light-line-height: 25px;
+
+  /* inter-15-medium */
+  --inter-15-medium-family: "Inter";
+  --inter-15-medium-size: 15px;
+  --inter-15-medium-weight: 500;
+  --inter-15-medium-line-height: 25px;
+
+  /* inter-15-regular */
+  --inter-15-regular-family: "Inter";
+  --inter-15-regular-size: 15px;
+  --inter-15-regular-weight: 400;
+  --inter-15-regular-line-height: normal;
+
+  /* inter-16-light */
+  --inter-16-light-family: "Inter";
+  --inter-16-light-size: 16px;
+  --inter-16-light-weight: 300;
+  --inter-16-light-line-height: normal;
+
+  /* inter-16-regular */
+  --inter-16-regular-family: "Inter";
+  --inter-16-regular-size: 16px;
+  --inter-16-regular-weight: 400;
+  --inter-16-regular-line-height: normal;
+
+  /* inter-18-regular */
+  --inter-18-regular-family: "Inter";
+  --inter-18-regular-size: 18px;
+  --inter-18-regular-weight: 400;
+  --inter-18-regular-line-height: normal;
+
+  /* inter-20-light */
+  --inter-20-light-family: "Inter";
+  --inter-20-light-size: 20px;
+  --inter-20-light-weight: 300;
+  --inter-20-light-line-height: 34px;
+
+  /* inter-20-medium */
+  --inter-20-medium-family: "Inter";
+  --inter-20-medium-size: 20px;
+  --inter-20-medium-weight: 500;
+  --inter-20-medium-line-height: 34px;
+
+  /* inter-20-medium-2 */
+  --inter-20-medium-2-family: "Inter";
+  --inter-20-medium-2-size: 20px;
+  --inter-20-medium-2-weight: 500;
+  --inter-20-medium-2-line-height: normal;
+
+  /* inter-20-regular */
+  --inter-20-regular-family: "Inter";
+  --inter-20-regular-size: 20px;
+  --inter-20-regular-weight: 400;
+  --inter-20-regular-line-height: normal;
+
+  /* inter-28-regular */
+  --inter-28-regular-family: "Inter";
+  --inter-28-regular-size: 28px;
+  --inter-28-regular-weight: 400;
+  --inter-28-regular-line-height: normal;
+
+  /* inter-36-medium */
+  --inter-36-medium-family: "Inter";
+  --inter-36-medium-size: 36px;
+  --inter-36-medium-weight: 500;
+  --inter-36-medium-line-height: normal;
+
+  /* inter-36-medium-line53 */
+  --inter-36-medium-line53-family: "Inter";
+  --inter-36-medium-line53-size: 36px;
+  --inter-36-medium-line53-weight: 500;
+  --inter-36-medium-line53-line-height: 53px;
+
+  /* inter-36-medium-line61 */
+  --inter-36-medium-line61-family: "Inter";
+  --inter-36-medium-line61-size: 36px;
+  --inter-36-medium-line61-weight: 500;
+  --inter-36-medium-line61-line-height: 61px;
+
+  /* inter-36-regular */
+  --inter-36-regular-family: "Inter";
+  --inter-36-regular-size: 36px;
+  --inter-36-regular-weight: 400;
+  --inter-36-regular-line-height: normal;
+
+  /* inter-64-bold */
+  --inter-64-bold-family: "Inter";
+  --inter-64-bold-size: 64px;
+  --inter-64-bold-weight: 700;
+  --inter-64-bold-line-height: normal;
+}
+a{
+  text-decoration: none;
+}
+.contact {
+  background-color: var(--white);
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.hedder {
+  padding: 40px ;
+  height: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.bg-header{
+  background-color: white;
+  opacity: 80%;
+}
+.header-logo-1 {
+  height: 7vh;
+}
+.menju {
+  display: flex;
+  align-items: center;
+  height: 7vh;
+  width: 80%;
+  justify-content: space-around;
+}
+.home {
+  color: var(--dark-slate-gray);
+  display: flex;
+  font-family: var(--inter-20-regular-family);
+  font-size: var(--inter-20-regular-size);
+  font-weight: var(--inter-20-regular-weight);
+  line-height: var(--inter-20-regular-line-height);
+}
+.about-us {
+  color: var(--dark-slate-gray);
+  display: flex;
+  font-family: var(--inter-20-regular-family);
+  font-size: var(--inter-20-regular-size);
+  font-weight: var(--inter-20-regular-weight);
+  line-height: var(--inter-20-regular-line-height);
+}
+.product-services {
+  color: var(--dark-slate-gray);
+  display: flex;
+  font-family: var(--inter-20-regular-family);
+  font-size: var(--inter-20-regular-size);
+  font-weight: var(--inter-20-regular-weight);
+  line-height: var(--inter-20-regular-line-height);
+}
+.sustomers-testimonies {
+  color: var(--dark-slate-gray);
+  display: flex;
+  font-family: var(--inter-20-regular-family);
+  font-size: var(--inter-20-regular-size);
+  font-weight: var(--inter-20-regular-weight);
+  line-height: var(--inter-20-regular-line-height);
+}
+.social-media {
+  color: var(--dark-slate-gray);
+  display: flex;
+  font-family: var(--inter-20-regular-family);
+  font-size: var(--inter-20-regular-size);
+  font-weight: var(--inter-20-regular-weight);
+  line-height: var(--inter-20-regular-line-height);
+}
+.jazyk {
+  padding: 0 0 1.38px;
+  width: 140px;
+  height: 46.23px;
+  border: 1px solid #D8D8D8;
+  border-radius: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.en {
+  color: var(--dark-slate-gray-2);
+  display: flex;
+  align-items:center;
+  font-family: var(--inter-18-regular-family);
+  font-size: var(--inter-18-regular-size);
+  font-weight: var(--inter-18-regular-weight);
+  line-height: var(--inter-18-regular-line-height);
+}
+.rectangle-2 {
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid var(--medium-sea-green);
+}
+.ua {
+  width: 30px;
+  color: var(--dark-slate-gray-2);
+  display: flex;
+  align-items:center;
+  font-family: var(--inter-18-regular-family);
+  font-size: var(--inter-18-regular-size);
+  font-weight: var(--inter-18-regular-weight);
+  line-height: var(--inter-18-regular-line-height);
+}
+.flex-wrapper-one {
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+.ua-two {
+  margin-top: 1.92px;
+  margin-right: 9.91px;
+}
+.flex-wrapper-two {
+  display: flex;
+  align-items: center;
+  padding:0 5px;
+}
+/* main */
+.main{
+  padding-top: 5vh;
+  min-height: 75vh;
+}
+.wrapp-main{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  justify-content: space-around;
+  position: relative;
+  flex-wrap: wrap;
+}
+.customers-testimonies-main {
+  text-align: center;
+  color: var(--dark-slate-gray-7);
+  font-family: var(--inter-36-medium-family);
+  font-size: var(--inter-36-medium-size);
+  font-weight: var(--inter-36-medium-weight);
+  line-height: var(--inter-36-medium-line-height);
+  margin-bottom: 50px;
+}
+.num-2 {
+  background-color: var(--transparent-sandy-brown-2);
+  border-radius: 27px;
+  width: 40vh;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+
+}
+.num-3-343534535 {
+  width: 12.45%;
+  height: 12.55%;
+  margin-bottom: 11px;
+  margin-left: 239px;
+}
+.free-icon-linkedin-3536505-1 {
+  width: 46.89%;
+  height: 47.23%;
+  margin-bottom: 49px;
+}
+.knopka {
+  background-color: var(--sandy-brown);
+  border-radius: 65px;
+  display: flex;
+  width: 231px;
+  height: 49px;
+  border: 0;
+  color: var(--white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--inter-16-medium-family);
+  font-size: var(--inter-16-medium-size);
+  font-weight: var(--inter-16-medium-weight);
+  line-height: var(--inter-16-medium-line-height);
+}
+
+/* futter */
+.futer {
+  background-color: var(--sandy-brown);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.napolnenie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.menju-two {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+.header-logo-1-two{
+  height: 7vh;
+}
+.home-two {
+  color: var(--white);
+  display: flex;
+  font-family: var(--inter-14-regular-family);
+  font-size: var(--inter-14-regular-size);
+  font-weight: var(--inter-14-regular-weight);
+  line-height: var(--inter-14-regular-line-height);
+}
+.about-us-three {
+  color: var(--white);
+  display: flex;
+  font-family: var(--inter-14-regular-family);
+  font-size: var(--inter-14-regular-size);
+  font-weight: var(--inter-14-regular-weight);
+  line-height: var(--inter-14-regular-line-height);
+}
+.product-services-two {
+  color: var(--white);
+  display: flex;
+  font-family: var(--inter-14-regular-family);
+  font-size: var(--inter-14-regular-size);
+  font-weight: var(--inter-14-regular-weight);
+  line-height: var(--inter-14-regular-line-height);
+}
+.customers-testimonies {
+  color: var(--white);
+  display: flex;
+  font-family: var(--inter-14-regular-family);
+  font-size: var(--inter-14-regular-size);
+  font-weight: var(--inter-14-regular-weight);
+  line-height: var(--inter-14-regular-line-height);
+}
+.social-media-two {
+  color: var(--white);
+  display: flex;
+  font-family: var(--inter-14-regular-family);
+  font-size: var(--inter-14-regular-size);
+  font-weight: var(--inter-14-regular-weight);
+  line-height: var(--inter-14-regular-line-height);
+}
+
+.message{
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: -40px;
+  right: -100px;
+  display: none;
+}
+
+.link:hover~.message{
+  display: block;
+}
+
+.rectangle-5 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.copy-link {
+  color: var(--gray);
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 9.66%;
+  top: 19.83%;
+  bottom: 32.23%;
+  right: 9.18%;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 169.52%;
+  /* or 25px */
+  
+  text-align: center;
+  
+  color: #777777;
+}

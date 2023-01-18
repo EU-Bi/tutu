@@ -1,0 +1,627 @@
+/* This is the project stylesheet */
+
+:root {
+  /* Colors */
+  --dark-slate-gray: rgba(45, 45, 45, 1);
+  --dark-slate-gray-2: rgba(63, 63, 63, 1);
+  --dark-slate-gray-3: rgba(49, 49, 49, 1);
+  --dark-slate-gray-4: rgba(63, 66, 63, 1);
+  --dark-slate-gray-5: rgba(40, 40, 40, 1);
+  --gainsboro: rgba(216, 216, 216, 1);
+  --medium-sea-green: rgba(80, 221, 94, 1);
+  --olive-drab: rgba(114, 145, 63, 1);
+  --sandy-brown: rgba(255, 179, 65, 1);
+  --transparent-white: rgba(255, 255, 255, 0.81);
+  --white: rgba(255, 255, 255, 1);
+
+  /* Typographies */
+  /* inter-128-bold */
+  --inter-128-bold-family: "Inter";
+  --inter-128-bold-size: 128px;
+  --inter-128-bold-weight: 700;
+  --inter-128-bold-line-height: normal;
+
+  /* inter-14-regular */
+  --inter-14-regular-family: "Inter";
+  --inter-14-regular-size: 14px;
+  --inter-14-regular-weight: 400;
+  --inter-14-regular-line-height: normal;
+
+  /* inter-15-medium */
+  --inter-15-medium-family: "Inter";
+  --inter-15-medium-size: 15px;
+  --inter-15-medium-weight: 500;
+  --inter-15-medium-line-height: 25px;
+
+  /* inter-15-regular */
+  --inter-15-regular-family: "Inter";
+  --inter-15-regular-size: 15px;
+  --inter-15-regular-weight: 400;
+  --inter-15-regular-line-height: normal;
+
+  /* inter-16-regular */
+  --inter-16-regular-family: "Inter";
+  --inter-16-regular-size: 16px;
+  --inter-16-regular-weight: 400;
+  --inter-16-regular-line-height: normal;
+
+  /* inter-18-regular */
+  --inter-18-regular-family: "Inter";
+  --inter-18-regular-size: 18px;
+  --inter-18-regular-weight: 400;
+  --inter-18-regular-line-height: normal;
+
+  /* inter-20-medium */
+  --inter-20-medium-family: "Inter";
+  --inter-20-medium-size: 20px;
+  --inter-20-medium-weight: 500;
+  --inter-20-medium-line-height: 34px;
+
+  /* inter-20-regular */
+  --inter-20-regular-family: "Inter";
+  --inter-20-regular-size: 20px;
+  --inter-20-regular-weight: 400;
+  --inter-20-regular-line-height: normal;
+
+  /* inter-28-regular */
+  --inter-28-regular-family: "Inter";
+  --inter-28-regular-size: 28px;
+  --inter-28-regular-weight: 400;
+  --inter-28-regular-line-height: normal;
+
+  /* inter-64-bold */
+  --inter-64-bold-family: "Inter";
+  --inter-64-bold-size: 64px;
+  --inter-64-bold-weight: 700;
+  --inter-64-bold-line-height: normal;
+}
+a{
+  text-decoration: none;
+}
+
+  .glavnaja {
+    background-color: var(--white);
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .flex-wrapper-fourteen {
+    background-size: cover;
+    background-position: center;
+    background-image: url("./bg-img/3.png");
+    display: flex;
+    background-image: cover;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    height: 70vh;
+    /* align-items: flex-start; */
+  }
+  .wrapp-hedder{
+  }
+  .hedder {
+    padding: 40px ;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.81);
+  }
+  .bg-header{
+    background-color: white;
+    opacity: 80%;
+  }
+  .header-logo-1 {
+
+  }
+  .menju {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+    width: 80%;
+    justify-content: space-around;
+  }
+  .header-logo-1{
+    height: 7vh;
+  }
+  .home {
+    color: var(--dark-slate-gray);
+    display: flex;
+    font-family: var(--inter-20-regular-family);
+    font-size: var(--inter-20-regular-size);
+    font-weight: var(--inter-20-regular-weight);
+    line-height: var(--inter-20-regular-line-height);
+  }
+  .about-us {
+    color: var(--dark-slate-gray);
+    display: flex;
+    font-family: var(--inter-20-regular-family);
+    font-size: var(--inter-20-regular-size);
+    font-weight: var(--inter-20-regular-weight);
+    line-height: var(--inter-20-regular-line-height);
+  }
+  .product-services {
+    color: var(--dark-slate-gray);
+    display: flex;
+    font-family: var(--inter-20-regular-family);
+    font-size: var(--inter-20-regular-size);
+    font-weight: var(--inter-20-regular-weight);
+    line-height: var(--inter-20-regular-line-height);
+  }
+  .sustomers-testimonies {
+    color: var(--dark-slate-gray);
+    display: flex;
+    font-family: var(--inter-20-regular-family);
+    font-size: var(--inter-20-regular-size);
+    font-weight: var(--inter-20-regular-weight);
+    line-height: var(--inter-20-regular-line-height);
+  }
+  .social-media {
+    color: var(--dark-slate-gray);
+    display: flex;
+    font-family: var(--inter-20-regular-family);
+    font-size: var(--inter-20-regular-size);
+    font-weight: var(--inter-20-regular-weight);
+    line-height: var(--inter-20-regular-line-height);
+  }
+  .jazyk {
+    padding: 0 0 1.38px;
+    height: 46.23px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .en {
+    color: var(--dark-slate-gray-2);
+    display: flex;
+    align-items:center;
+    font-family: var(--inter-18-regular-family);
+    font-size: var(--inter-18-regular-size);
+    font-weight: var(--inter-18-regular-weight);
+    line-height: var(--inter-18-regular-line-height);
+  }
+  .rectangle-2 {
+    height: 45px;
+    border-radius: 30px;
+    border: 1px solid var(--medium-sea-green);
+  }
+  .ua {
+    width: 30px;
+    color: var(--dark-slate-gray-2);
+    display: flex;
+    align-items:center;
+    font-family: var(--inter-18-regular-family);
+    font-size: var(--inter-18-regular-size);
+    font-weight: var(--inter-18-regular-weight);
+    line-height: var(--inter-18-regular-line-height);
+  }
+  .flex-wrapper-one {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+  }
+  .ua-two {
+    margin-top: 1.92px;
+    margin-right: 9.91px;
+  }
+  .flex-wrapper-two {
+    display: flex;
+    align-items: center;
+    padding: 0 5px;
+  
+  }
+  .kontent {
+    margin: 0 auto;
+    position: relative;
+  }
+  .brandeme {
+    display: flex;
+    text-align: center;
+    padding-bottom: 30px;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15vh;
+    text-align: center;
+    color: #3F423F;
+  }
+  .flex-wrapper-two {
+    position: relative;
+  }
+  .innovative-commercial-space {
+    color: var(--dark-slate-gray-4);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3vh;
+    text-align: center;
+  }
+  .rectangle-7 {
+    border: 1px solid var(--white);
+    border-radius: 27px;
+    backdrop-filter: blur(29px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    width: 80vh;
+    justify-content: center;
+  }
+  .knopka {
+    background-color: var(--sandy-brown);
+    border-radius: 65px;
+    border: 0;
+    width: 30vh;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    color: var(--dark-slate-gray-5);
+    text-align: center;
+    font-family: var(--inter-20-medium-family);
+    font-size: var(--inter-20-medium-size);
+    font-weight: var(--inter-20-medium-weight);
+    line-height: var(--inter-20-medium-line-height);
+    
+  }
+  .knopka:hover{
+    background-color: #72913F;
+    color: azure;
+  }
+  .wrapp-logotipy{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .logotipy {
+    display: flex; 
+    height: 20vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .flex-wrapper-three {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 10vh;
+    height: 10vh;
+    /* padding: 5px 23.77px 28.58px 28px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inmobi-logo-c6149c0b2e-seeklogo {
+    width: 48px;
+    height: 43px;
+  }
+  .flex-wrapper-four {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  .m2o-logo-square {
+    width: 61px;
+    height: 20px;
+  }
+  .flex-wrapper-five {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-logo-1-two {
+    width: 75.72px;
+    height: 24.5px;
+    position: absolute;
+    left: 22.27px;
+    top: 46.76px;
+  }
+  .main-square {
+    width: 54px;
+    height: 50px;
+  }
+  .flex-wrapper-six {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-logo-2 {
+    width: 75.72px;
+    height: 24.5px;
+    position: absolute;
+    left: 21.53px;
+    top: 46.76px;
+  }
+  .mediasmart {
+    width: 54px;
+    height: 38px;
+  }
+  .flex-wrapper-seven {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .v-1606029317799-header-logo {
+    width: 54px;
+    height: 15px;
+  }
+  .flex-wrapper-eight {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vungle {
+    width: 54px;
+    height: 17px;
+  }
+  .flex-wrapper-nine {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* .header-logo-5 {
+    width: 75.72px;
+    height: 24.5px;
+    position: absolute;
+    left: 23.01px;
+    top: 46.76px;
+  } */
+  .shar-1 {
+    width: 46px;
+    height: 45px;
+  }
+  .flex-wrapper-ten {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shar-2 {
+    width: 59px;
+    height: 19px;
+  }
+  .flex-wrapper-eleven {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    border: 1px solid black;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shar-3 {
+    width: 47px;
+    height: 32px;
+  }
+  .flex-wrapper-twelve {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    border: 1px solid black;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .amazon-logo {
+    width: 64px;
+    height: 19px;
+  }
+  .flex-wrapper-thirteen {
+    background-color: var(--olive-drab);
+    border-radius: 50%;
+    width: 12vh;
+    height: 12vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .gothamads {
+    width: 67px;
+    height: 24px;
+  }
+  .image-1 {
+    width: 340px;
+    height: 95px;
+  }
+  .futer {
+    background-color: var(--sandy-brown);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .napolnenie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .menju-two {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+  }
+  .header-logo-1-three{
+    height: 7vh;
+  }
+  .home-two {
+    color: var(--white);
+    display: flex;
+    font-family: var(--inter-14-regular-family);
+    font-size: var(--inter-14-regular-size);
+    font-weight: var(--inter-14-regular-weight);
+    line-height: var(--inter-14-regular-line-height);
+  }
+  .about-us-two {
+    color: var(--white);
+    display: flex;
+    font-family: var(--inter-14-regular-family);
+    font-size: var(--inter-14-regular-size);
+    font-weight: var(--inter-14-regular-weight);
+    line-height: var(--inter-14-regular-line-height);
+  }
+  .product-services-two {
+    color: var(--white);
+    display: flex;
+    font-family: var(--inter-14-regular-family);
+    font-size: var(--inter-14-regular-size);
+    font-weight: var(--inter-14-regular-weight);
+    line-height: var(--inter-14-regular-line-height);
+  }
+  .customers-testimonies {
+    color: var(--white);
+    display: flex;
+    font-family: var(--inter-14-regular-family);
+    font-size: var(--inter-14-regular-size);
+    font-weight: var(--inter-14-regular-weight);
+    line-height: var(--inter-14-regular-line-height);
+  }
+  .social-media-two {
+    color: var(--white);
+    display: flex;
+    font-family: var(--inter-14-regular-family);
+    font-size: var(--inter-14-regular-size);
+    font-weight: var(--inter-14-regular-weight);
+    line-height: var(--inter-14-regular-line-height);
+  }
+
+.header__burger{
+  display: none;
+}
+
+@media screen and (max-width:767px) {
+  .hedder{
+    height: 80px;
+  }
+  .header__burger{
+    display: block;
+    position: relative;
+    width: 35px;
+    height: 25px;
+    z-index: 3;
+    margin-right: 30px;
+  }
+  .header__burger span{
+    background: #FFB341;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before,
+  .header__burger::after{
+    content: '';
+    background: #FFB341;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    border-radius: 65px;
+
+  }
+  .header__burger::before{
+    top: 0;
+  }
+  .header__burger::after{
+    bottom: 0;
+  }
+  .container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #72913F;
+  }
+  .rectangle-7{
+    width: 336px;
+    height: 206px;
+    padding: 0 50px;
+  }
+  .brandeme{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+  }
+  .innovative-commercial-space{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .knopka{
+    width: 223px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #72913F;
+    border-radius: 65px;
+  }
+  .header-logo-1{
+    width: 100px;
+    height: 32px;
+    margin-left: 30px;
+  }
+}
