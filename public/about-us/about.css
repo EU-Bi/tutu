@@ -156,7 +156,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -164,7 +164,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -172,7 +172,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -180,7 +180,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -188,7 +188,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -262,7 +262,7 @@ a{
 .about-us-two {
   color: var(--dark-slate-gray-4);
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 1vh;
   font-family: var(--inter-36-regular-family);
   font-size: var(--inter-36-regular-size);
   font-weight: var(--inter-36-regular-weight);
@@ -276,7 +276,7 @@ a{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.6vh;
   line-height: 19px;
 }
 .our-values-principles {
@@ -302,7 +302,7 @@ a{
   justify-content: center;
   margin: 0 auto;
   height: 35vh;
-  margin-top: 7vh;
+  /* margin-top: 1vh; */
 }
 .wrapp-content{
   display: flex;
@@ -316,7 +316,7 @@ a{
   display: flex;
   align-items: flex-start;
   margin-right: 38px;
-  margin-bottom: 5vh;
+  margin-bottom: 2vh;
 }
 .flex-wrapper-three {
   background-color: var(--transparent-sandy-brown-2);
@@ -468,7 +468,7 @@ a{
 .futer {
   background-color: var(--sandy-brown);
   height: 10vh;
-  margin-top:5vh;
+  margin-top:2vh;
   display: flex;
   align-items: center;
   justify-content: center;

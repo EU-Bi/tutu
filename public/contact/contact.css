@@ -198,7 +198,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -206,7 +206,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -214,7 +214,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -222,7 +222,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -230,7 +230,7 @@ a{
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-20-regular-family);
-  font-size: var(--inter-20-regular-size);
+  font-size: 2vh;
   font-weight: var(--inter-20-regular-weight);
   line-height: var(--inter-20-regular-line-height);
 }
@@ -296,7 +296,7 @@ a{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-bottom: 60px;
+  margin-bottom: 6vh;
   position: relative;
 }
 .wrapp-contact-but{
@@ -307,8 +307,8 @@ a{
   text-align: center;
   background: rgba(132, 164, 80, 0.22);
   border-radius: 27px;
-  padding: 150px 50px;
-  width: 50%;
+  padding: 0 5vh;
+  width: 90vh;
   
 }
 .wrapp-flex-button{
@@ -331,21 +331,21 @@ a{
 .mail {
   background-color: var(--transparent-yellow-green-2);
   border-radius: 9px;
-  width: 315px;
-  height: 94px;
+  width: 30vh;
+  height: 9vh;
   padding: 15px 14px 12px 23px;
   display: flex;
   align-items: center;
-  margin-top: 25px;
+  margin-top: 2.5vh;
 }
 .free-icon-at-88279 {
-  margin-right: 20px;
+  margin-right: 2vh;
 }
 .email {
   color: var(--dark-slate-gray-7);
   display: flex;
   font-family: var(--inter-24-medium-family);
-  font-size: var(--inter-24-medium-size);
+  font-size: 2.4vh;
   font-weight: var(--inter-24-medium-weight);
   line-height: var(--inter-24-medium-line-height);
 }
@@ -355,37 +355,37 @@ a{
   align-self: stretch;
   display: flex;
   font-family: var(--inter-16-light-line27-family);
-  font-size: var(--inter-16-light-line27-size);
+  font-size: 1.6vh;
   font-weight: var(--inter-16-light-line27-weight);
   line-height: var(--inter-16-light-line27-line-height);
 }
 .ukraine-two{
-  width: 315px;
-  height: 189px;
-  margin-top: 25px;
+  width: 30vh;
+  height: 19vh;
+  margin-top: 2.5vh;
   /* margin-right: 20px; */
   background: rgba(132, 164, 80, 0.4);
   border-radius: 9px;
   text-align: left;
-  padding-left: 25px;
+  padding-left: 2.5vh;
   border: 0;
 }
 .ukraine{
-  margin: 26px 0 45px 0;
+  margin: 2.6vh 0 4.5vh 0;
 }
 .office-ukraine{
   color: #464646;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 2.4vh;
   line-height: 169.52%;
 }
 .yantarna-5v-kyiv-03170{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1.6vh;
   line-height: 169.52%;
   /* or 27px */
 
@@ -403,11 +403,11 @@ a{
   border-radius: 27px;
 }
 .par-contact{
-  margin-top: 60px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 3.6vh;
+  margin-top: 3vh;
   line-height: 169.52%;
   /* or 61px */
 
@@ -419,20 +419,20 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 6vh;
 }
 input{
-  width: 459px;
-  height: 79px;
+  width: 46vh;
+  height: 8vh;
   background: rgba(255, 179, 65, 0.17);
   border-radius: 65px;
   border: 0;
-  margin-top: 20px;
+  margin-top: 2vh;
 
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 169.52%;
   /* or 34px */
   
@@ -444,7 +444,7 @@ input::placeholder {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 169.52%;
   /* or 34px */
   
@@ -457,7 +457,7 @@ input:focus {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 2;
   line-height: 169.52%;
   /* or 34px */
 
@@ -469,8 +469,8 @@ input:focus {
 
 .by-clicking-the-send-button-you-agree {
   margin: 30px 0 60px 0;
-  height: 46px;
-  width: 441px;
+  height: 4.6vh;
+  width: 44vh;
   text-align: center;
   color: var(--dim-gray);
   font-family: var(--inter-15-light-family);
@@ -486,8 +486,8 @@ input:focus {
   line-height: var(--inter-15-light-line-height);
 }
 button{
-  width: 459px;
-  height: 79px;
+  width: 46vh;
+  height: 8vh;
   background: #FFB341;
   border-radius: 65px;
   border: 0;
@@ -495,7 +495,7 @@ button{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 169.52%;
   /* or 34px */
 
@@ -504,8 +504,8 @@ button{
   color: #FFFFFF;
 }
 .button{
-  width: 459px;
-  height: 79px;
+  width: 46vh;
+  height: 8vh;
   background: #FFB341;
   border-radius: 65px;
   border: 0;
@@ -513,7 +513,7 @@ button{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 169.52%;
   /* or 34px */
 

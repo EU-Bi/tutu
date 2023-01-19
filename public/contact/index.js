@@ -216,28 +216,30 @@ function bodyUnLock(){
 
   document.querySelector('.telegram-form').addEventListener('submit',function(e){
     e.preventDefault();
-
-    let message = `<b>Заявка с сайта!!</b>\n
-    <b>Отправитель: </b> ${this.name.value}\n
-    <b>Почта: </b> ${this.email.value}\n
-    <b>Телефон: </b> ${this.phone.value}`
     
+        let message = `<b>Заявка с сайта!!</b>\n
+      <b>Отправитель: </b> ${this.name.value}\n
+      <b>Почта: </b> ${this.email.value}\n
+      <b>Телефон: </b> ${this.phone.value}`
+      
 
 
-    window.axios.post(URL_API,{
-      chat_id:CHAT_ID,
-      parse_mode:'html',
-      text:message
-    })
-    .then((res)=>{
-      this.name.value=''
-      this.email.value=''
-      this.phone.value=''
-      popupOpen(popup)
-    })
-    .catch((err)=>{
-      console.warn(err)
-    })
+      window.axios.post(URL_API,{
+        chat_id:CHAT_ID,
+        parse_mode:'html',
+        text:message
+      })
+      .then((res)=>{
+        this.name.value=''
+        this.email.value=''
+        this.phone.value=''
+        popupOpen(popup)
+      })
+      .catch((err)=>{
+        console.warn(err)
+      })
+    
+    
   })
 
   if(localStorage.language=='ua'){

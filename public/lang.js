@@ -177,10 +177,10 @@ export const product={
     "ua":"Контакти"
   },
   "head-product-services":{
-    "en":` Product &amp; <strong class="product-services-emphasis-1"
+    "en":` Product& <strong class="product-services-emphasis-1"
     > Services</strong
   >`,
-    "ua":` Продукт &amp; <strong class="product-services-emphasis-1"
+    "ua":` Продукт& <strong class="product-services-emphasis-1"
     > Сервіси </strong
   >`
   },

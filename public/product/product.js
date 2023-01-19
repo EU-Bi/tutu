@@ -302,9 +302,9 @@ function generatePopUpInPopUp(body,button){
               <img class="popup_img" src=${card[key]} width="380px" height="480px" alt="" srcset="">
               <form class="flex-wrapper-card-form telegram-form">
                 <p class="par-contact lg-contact-us">Contact us</p>
-                <input type="text" name="name" id="" placeholder="Your name"/>
-                <input type="email" name="email" id="" placeholder="Email"/>
-                <input type="text" name="phone" id="" placeholder="Phone">
+                <input type="text" name="name" id="" placeholder="Your name" required/ >
+                <input type="email" name="email" id="" placeholder="Email" required/>
+                <input type="text" name="phone" id="" placeholder="Phone" required>
                 <button type="submit" class="knopka-1 lg-button-sign" id="8">Sign up</button>
               </form>
             </div>
@@ -351,9 +351,9 @@ function generatePopUpInPopUp(body,button){
             <img class="popup_img" src=${card[key]} width="380px" height="480px" alt="" srcset="">
             <form class="flex-wrapper-card-form telegram-form" action="../ajax.php">
               <p class="par-contact lg-contact-us">Зв'яжіться з нами</p>
-              <input type="text" name="name" id="" placeholder="Ваше ім'я"/>
-              <input type="email" name="email" id="" placeholder="Ваш email"/>
-              <input type="text" name="phone" id="" placeholder="Ваш телефон">
+              <input type="text" name="name" id="" placeholder="Ваше ім'я" required/>
+              <input type="email" name="email" id="" placeholder="Ваш email" required/>
+              <input type="text" name="phone" id="" placeholder="Ваш телефон" required>
               <button type="submit" class="knopka-1 lg-button-sign" id="8">Відправити</button>
             </form>
           </div>

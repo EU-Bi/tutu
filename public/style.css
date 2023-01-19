@@ -133,7 +133,7 @@ a{
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
-    font-size: var(--inter-20-regular-size);
+    font-size: 2vh;
     font-weight: var(--inter-20-regular-weight);
     line-height: var(--inter-20-regular-line-height);
   }
@@ -141,7 +141,7 @@ a{
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
-    font-size: var(--inter-20-regular-size);
+    font-size: 2vh;
     font-weight: var(--inter-20-regular-weight);
     line-height: var(--inter-20-regular-line-height);
   }
@@ -149,7 +149,7 @@ a{
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
-    font-size: var(--inter-20-regular-size);
+    font-size: 2vh;
     font-weight: var(--inter-20-regular-weight);
     line-height: var(--inter-20-regular-line-height);
   }
@@ -157,7 +157,7 @@ a{
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
-    font-size: var(--inter-20-regular-size);
+    font-size: 2vh;
     font-weight: var(--inter-20-regular-weight);
     line-height: var(--inter-20-regular-line-height);
   }
@@ -165,7 +165,7 @@ a{
     color: var(--dark-slate-gray);
     display: flex;
     font-family: var(--inter-20-regular-family);
-    font-size: var(--inter-20-regular-size);
+    font-size: 2vh;
     font-weight: var(--inter-20-regular-weight);
     line-height: var(--inter-20-regular-line-height);
   }
