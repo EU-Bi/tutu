@@ -217,10 +217,10 @@ function bodyUnLock(){
   document.querySelector('.telegram-form').addEventListener('submit',function(e){
     e.preventDefault();
     
-        let message = `<b>Заявка с сайта!!</b>\n
-      <b>Отправитель: </b> ${this.name.value}\n
-      <b>Почта: </b> ${this.email.value}\n
-      <b>Телефон: </b> ${this.phone.value}`
+    let message = `<b>From internet site!!</b>\n
+    <b>Name: </b> ${this.name.value}\n
+    <b>Email: </b> ${this.email.value}\n
+    <b>Phone: </b> ${this.phone.value}`
       
 
 
