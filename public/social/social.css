@@ -264,7 +264,7 @@ a{
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  width: 95%;
+  width: 80%;
   justify-content: space-around;
   position: relative;
   flex-wrap: wrap;
@@ -281,32 +281,30 @@ a{
 .num-2 {
   background-color: var(--transparent-sandy-brown-2);
   border-radius: 27px;
-  width: 40vh;
-  height: 40vh;
+  width: 30vh;
+  height: 30vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
   align-items: center;
-
 }
 .num-3-343534535 {
-  width: 12.45%;
-  height: 12.55%;
-  margin-bottom: 11px;
-  margin-left: 239px;
+  position: absolute;
+  top: 1vh;
+  right: 1vh;
 }
 .free-icon-linkedin-3536505-1 {
   width: 46.89%;
   height: 47.23%;
-  margin-bottom: 49px;
+  margin-bottom: 3vh;
 }
 .knopka {
   background-color: var(--sandy-brown);
   border-radius: 65px;
   display: flex;
-  width: 231px;
-  height: 49px;
+  width: 23vh;
+  height: 5vh;
   border: 0;
   color: var(--white);
   text-align: center;
@@ -386,8 +384,8 @@ a{
   width: 200px;
   height: 70px;
   position: absolute;
-  top: -40px;
-  right: -100px;
+  top: -5vh;
+  right: -13vh;
   display: none;
 }
 

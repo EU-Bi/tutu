@@ -150,7 +150,7 @@ a{
   top: 0;
   z-index: 9999;
   height: 15vh;
-  margin-bottom: 149px;
+  margin-bottom: 7vh;
 }
 .wrapp-hedder{
   width: 100%;
@@ -275,12 +275,13 @@ a{
   justify-content: center;
   align-items: flex-start;
   margin-bottom: 200px;
+  width: 95%;
+  margin: 0 auto;
 }
 
 .customers-testimonies-main {
   height: 45px;
-  margin: 0 auto;
-  margin-bottom: 60px;
+  margin-bottom: 5vh;
   color: var(--dark-slate-gray-7);
   font-family: var(--inter-36-medium-family);
   font-size: var(--inter-36-medium-size);
@@ -289,9 +290,11 @@ a{
 }
 
 .wrapp-main{
+
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   flex-wrap: wrap;
+  grid-gap:65px;
 }
 
 .num-1 {
@@ -299,7 +302,8 @@ a{
   border-radius: 27px;
   height: 280px;
   display: flex;
-  width: 700px;
+  width: 90vh;
+  
   align-items: center;
   justify-content: space-around;
   margin-bottom: 55px;
@@ -307,15 +311,16 @@ a{
 .flex-wrapper-one-main {
   background-color: var(--white);
   border-radius: 50%;
-  width: 177px;
-  height: 177px;
+  width: 17vh;
+  height: 17vh;
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid var(--white);
 }
 .logo-luminarc-feel-creative-rus-1-1-1 {
-  width: 130px;
+  width: 10vh;
+  object-fit: cover;
 }
 .flex-wrapper-two-main {
   width: 450px;
@@ -342,15 +347,15 @@ a{
 .plaska{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
-  width: 95%;
+  grid-gap:50px;
   margin: 0 auto;
   margin-bottom: 50px;
   padding: 55px 55px 35px;
 
+  width: 100%;
   background: rgba(255, 179, 65, 0.29);
   border-radius: 27px;
 }
