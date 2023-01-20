@@ -282,7 +282,7 @@ a{
 .flex-wrapper-two {
   display: flex;
   align-items: center;
-  padding:0 5px;
+  padding:0 3px;
 }
 /* main */
 .main{
@@ -316,7 +316,7 @@ a{
   flex-wrap: wrap;
   justify-content:space-around;
   /* margin: 0 auto; */
-  margin-top: 50px;
+  margin-top: 5vh;
 }
 .par-contact {
   color: var(--dark-slate-gray-7);
@@ -422,7 +422,7 @@ a{
   margin-top: 6vh;
 }
 input{
-  width: 46vh;
+  width: 44vh;
   height: 8vh;
   background: rgba(255, 179, 65, 0.17);
   border-radius: 65px;
@@ -486,7 +486,7 @@ input:focus {
   line-height: var(--inter-15-light-line-height);
 }
 button{
-  width: 46vh;
+  width: 44vh;
   height: 8vh;
   background: #FFB341;
   border-radius: 65px;
@@ -504,7 +504,7 @@ button{
   color: #FFFFFF;
 }
 .button{
-  width: 46vh;
+  width: 44vh;
   height: 8vh;
   background: #FFB341;
   border-radius: 65px;
@@ -623,7 +623,7 @@ body.lock{
   padding: 30px 10px;
 }
 .popup_content{
-  max-width: 450px;
+  max-width: 45vh;
 }
 .popup_close{
   position: absolute;
@@ -644,7 +644,7 @@ body.lock{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 3vh;
   line-height: 123.52%;
   /* or 44px */
 
@@ -669,7 +669,7 @@ body.lock{
 
 .popup_button{
   display: flex;
-  width: 459px;
+  width: 30vh;
   height: 79px;
   justify-content: center;
   align-items: center;
@@ -698,4 +698,154 @@ body.lock{
   height: 500px;
   border-radius: 27px;
   margin-bottom: 100px;
+}
+
+.header__burger{
+  display: none;
+}
+.body__burger{
+  display: none;
+}
+@media screen and (max-width:767px){
+  body{
+    overflow:auto;
+  }
+  .flex-wrapper-fourteen{
+    justify-content: space-between;
+    position: static;
+    margin: 0;
+  }
+  .header-logo-1{
+    width: 100px;
+    height: 32px;
+  }
+  .hedder{
+    height: 80px;
+    padding:  0 3vh;
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+  }
+  .header__burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 25px;
+  }
+  .header__burger span{
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before,
+  .header__burger::after{
+    content: '';
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before{
+    top: 0;
+  }
+  .header__burger::after{
+    bottom: 0;
+  }
+  .menju{
+    display: none;
+  }
+  
+  .jazyk{
+    display: none;
+  }
+  .jazyk_burger{
+    padding: 0 0 1.38px;
+    height: 46.23px;
+    width: 135px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body__burger.active{
+    height: 100%;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    grid-gap: 30px ;
+    top: 0;
+    right: 0;
+    background: #FFB341;
+    padding: 20px 10px 0 10px;
+    z-index: 9999;
+  }
+  .wrapp-language-cross{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .wrapp-language-cross img{
+    width: 25px;
+    height: 25px;
+  }
+  body.active{
+    overflow-y: hidden;
+  }
+  .menju__burger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .menju__burger a{
+    margin: 0 0 30px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  }
+  /* main */
+  .wrapp-contact-form{
+    width: 100%;
+    margin-top: 5vh;
+  }
+  .ukraine-two{
+    height: 15vh;
+  }
+  .ukraine{
+    margin: 0;
+  }
+  .wrapp-contact-but{
+    padding: 5vh;
+  }
+  /* futter */
+  .futer{
+    height: 62vh;
+  }
+  .napolnenie{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+  }
+  .menju-two{
+    align-items: center;
+    height: 26vh;
+    flex-direction: column;
+  }
 }

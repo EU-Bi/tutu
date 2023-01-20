@@ -785,6 +785,10 @@ body.lock{
   
     color: #FFFFFF;
   }
+  .header-logo-1{
+    width: 100px;
+    height: 32px;
+  }
   /* main */
   .informacija{
     width: 100%;

@@ -89,3 +89,34 @@ links.forEach((e)=>{
     )
   })
 })
+
+
+$(document).ready(function(){
+  $('.header__burger').click(function(e){
+    $('.header__burger,.body__burger,body').toggleClass('active')
+    $('.wrapp-language-cross img').click(function(e){
+      $('.header__burger,.body__burger,body').removeClass('active')
+    })
+    $('.flex-wrapper-two').click(function(e){
+      e.preventDefault()
+      changeURLLanguage('en')
+      
+      e.addClass('rectangle-2')
+      $('.flex-wrapper-one').removeClass('rectangle-2')
+
+    })
+    $('.flex-wrapper-one').click(function(e){
+      e.preventDefault()
+      changeURLLanguage('ua')
+      e.addClass('rectangle-2')
+      $('.flex-wrapper-two').removeClass('rectangle-2')
+    })
+    if(localStorage.language=='en'){
+      $('.flex-wrapper-two').addClass('rectangle-2')
+      $('.flex-wrapper-one').removeClass('rectangle-2')
+    }else{
+      $('.flex-wrapper-one').addClass('rectangle-2')
+      $('.flex-wrapper-two').removeClass('rectangle-2')
+    }
+  })
+})

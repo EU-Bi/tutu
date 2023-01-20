@@ -239,7 +239,7 @@ a{
 .flex-wrapper-two {
   display: flex;
   align-items: center;
-  padding: 0 5px;
+  padding: 0 3px;
 
 }
 .flex-wrapper-nine {
@@ -639,6 +639,10 @@ a{
     line-height: 24px;
   
     color: #FFFFFF;
+  }
+  .header-logo-1{
+    width: 100px;
+    height: 32px;
   }
 /* main */
 .flex-wrapper-nine{
