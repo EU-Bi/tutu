@@ -355,7 +355,7 @@ a{
   align-self: stretch;
   display: flex;
   font-family: var(--inter-16-light-line27-family);
-  font-size: 1.6vh;
+  font-size: 1.3vh;
   font-weight: var(--inter-16-light-line27-weight);
   line-height: var(--inter-16-light-line27-line-height);
 }
