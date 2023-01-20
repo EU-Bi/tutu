@@ -18,13 +18,13 @@ window.addEventListener('scroll', function() {
 
 
 
-const bgImage = document.querySelector('.flex-wrapper-fourteen')
+// const bgImage = document.querySelector('.flex-wrapper-fourteen')
 
-setInterval(function(){
-  const bgArr= new Array('./bg-img/1.png','./bg-img/2.png','./bg-img/3.png','./bg-img/4.png','./bg-img/5.png')
-  const los = Math.floor(Math.random() * bgArr.length);
-  bgImage.style ="background-image:url("+bgArr[los]+");background-size:cover;background-position: center;display: flex;flex-direction: column;align-items: flex-start;";
-},5000)
+// setInterval(function(){
+//   const bgArr= new Array('./bg-img/1.png','./bg-img/2.png','./bg-img/3.png','./bg-img/4.png','./bg-img/5.png')
+//   const los = Math.floor(Math.random() * bgArr.length);
+//   bgImage.style ="background-image:url("+bgArr[los]+");background-size:cover;background-position: center;display: flex;flex-direction: column;align-items: flex-start;";
+// },5000)
 
 
 const en = document.querySelector('.flex-wrapper-two')
