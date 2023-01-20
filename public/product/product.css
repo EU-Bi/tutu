@@ -261,7 +261,7 @@ a{
 .flex-wrapper-two {
   display: flex;
   align-items: center;
-  padding:0 5px;
+  padding:0 3px;
 }
 /* info */
 .informacija {
@@ -676,7 +676,7 @@ body.lock{
 .body__burger{
   display: none;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:1060px){
   body{
     overflow:auto;
   }
@@ -791,7 +791,7 @@ body.lock{
   }
   /* main */
   .informacija{
-    width: 50vh;
+    width: 90%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -802,9 +802,6 @@ body.lock{
     height: 100%;
     padding: 5vh;
   }
-  .wrapp-flex-card{
-    width: 100%;
-  }
   .wrapp-product-services{
     width: 34vh;
     text-align: center;
@@ -814,6 +811,7 @@ body.lock{
   }
   .digital-social-media-marketing-two{
     height: 175px;
+    width:90%;
     padding: 2vh;
     display: flex;
     align-items: center;
@@ -822,6 +820,8 @@ body.lock{
   }
   .vektornij-smart-obekt-1{
     height: 100px;
+    width: 100px;
+    object-fit: contain;
     display: flex;
     align-self: center;
   }
@@ -832,7 +832,8 @@ body.lock{
    align-items: center;
   }
   .popup_img{
-    height: 35vh;
+    height: 30vh;
+    object-fit: contain;
     margin: 0;
   }
   .popup_napolnenie{

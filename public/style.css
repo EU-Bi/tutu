@@ -243,8 +243,17 @@ a{
   }
   .kontent {
     margin: 0 auto;
-    position: relative;
     margin-bottom: 10vh;
+    height: 40vh;
+    width: 80vh;
+    border: 1px solid var(--white);
+    border-radius: 27px;
+    backdrop-filter: blur(29px);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
   }
   .brandeme {
     display: flex;
@@ -258,9 +267,6 @@ a{
     text-align: center;
     color: #3F423F;
   }
-  .flex-wrapper-two {
-    position: relative;
-  }
   .innovative-commercial-space {
     color: var(--dark-slate-gray-4);
     display: flex;
@@ -273,17 +279,7 @@ a{
     font-size: 3vh;
     text-align: center;
   }
-  .rectangle-7 {
-    border: 1px solid var(--white);
-    border-radius: 27px;
-    backdrop-filter: blur(29px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 40vh;
-    width: 80vh;
-    justify-content: center;
-  }
+  
   .knopka {
     background-color: var(--sandy-brown);
     border-radius: 65px;
@@ -568,7 +564,7 @@ a{
   display: none;
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:1060px) {
   .flex-wrapper-fourteen{
     justify-content: space-between;
   }
@@ -641,7 +637,7 @@ a{
     right: 0;
     background: #FFB341;
     padding: 20px 10px 0 10px;
-    z-index: 99;
+    z-index: 999999;
   }
   .wrapp-language-cross{
     display: flex;
@@ -673,7 +669,7 @@ a{
 
     color: #FFFFFF;
   }
-  .rectangle-7{
+  .kontent{
     width: 336px;
     height: 206px;
     padding: 0 50px;

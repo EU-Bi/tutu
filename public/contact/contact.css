@@ -419,6 +419,7 @@ a{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-top: 6vh;
 }
 input{
@@ -706,7 +707,7 @@ body.lock{
 .body__burger{
   display: none;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:1060px){
   body{
     overflow:auto;
   }
@@ -835,6 +836,11 @@ body.lock{
     width: 90%;
     padding: 5vh;
   }
+  .button,
+  input{
+    width: 35vh;
+  }
+  
   /* futter */
   .futer{
     height: 62vh;

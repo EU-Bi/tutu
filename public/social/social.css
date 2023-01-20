@@ -426,7 +426,7 @@ a{
 .body__burger{
   display: none;
 }
-@media screen and (max-width:767px){
+@media screen and (max-width:1060px){
   .flex-wrapper-fourteen{
     justify-content: space-between;
   }
