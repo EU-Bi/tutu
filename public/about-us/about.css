@@ -334,7 +334,6 @@ a{
 }
 .relibility {
   height: 16px;
-  width: 105px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -389,7 +388,6 @@ a{
 }
 .customer-driven-results {
   height: 16px;
-  width: 230px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -412,7 +410,6 @@ a{
 }
 .transparency {
   height: 16px;
-  width: 139px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -431,7 +428,6 @@ a{
 }
 .technology {
   height: 16px;
-  width: 144px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -454,7 +450,6 @@ a{
 }
 .professionalism {
   height: 16px;
-  width: 162px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
