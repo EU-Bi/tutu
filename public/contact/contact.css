@@ -822,7 +822,7 @@ body.lock{
   }
   /* main */
   .wrapp-contact-form{
-    width: 100%;
+    width: 90%;
     margin-top: 5vh;
   }
   .ukraine-two{
@@ -832,6 +832,7 @@ body.lock{
     margin: 0;
   }
   .wrapp-contact-but{
+    width: 90%;
     padding: 5vh;
   }
   /* futter */
