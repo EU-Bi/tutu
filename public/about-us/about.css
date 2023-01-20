@@ -529,3 +529,181 @@ a{
   font-weight: var(--inter-14-regular-weight);
   line-height: var(--inter-14-regular-line-height);
 }
+.header__burger{
+  display: none;
+}
+.body__burger{
+  display: none;
+}
+@media screen and (max-width:767px){
+  .flex-wrapper-fourteen{
+    justify-content: space-between;
+  }
+  .hedder{
+    height: 80px;
+    padding:  0 3vh;
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+  }
+  .header__burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 25px;
+  }
+  .header__burger span{
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before,
+  .header__burger::after{
+    content: '';
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before{
+    top: 0;
+  }
+  .header__burger::after{
+    bottom: 0;
+  }
+  .menju{
+    display: none;
+  }
+  
+  .jazyk{
+    display: none;
+  }
+  .jazyk_burger{
+    padding: 0 0 1.38px;
+    height: 46.23px;
+    width: 135px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body__burger.active{
+    height: 100%;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    grid-gap: 30px ;
+    top: 0;
+    right: 0;
+    background: #FFB341;
+    padding: 20px 10px 0 10px;
+    z-index: 99;
+  }
+  .wrapp-language-cross{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .wrapp-language-cross img{
+    width: 25px;
+    height: 25px;
+  }
+  body.active{
+    overflow-y: hidden;
+  }
+  .menju__burger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .menju__burger a{
+    margin: 0 0 30px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  }
+/* main */
+.flex-wrapper-nine{
+  margin-top: 9vh;
+}
+.kontent{
+  width: 100%;
+  align-items: center;
+}
+.brandeme-is-a-multi-channel-marketing-ag{
+  width: 352px;
+}
+.flex-wrapper-ten{
+  width: 100%;
+  height: 100%;
+  margin-top: 10vh;
+}
+.our-values-principles{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  
+  color: #2D2D2D;
+}
+.our-values-principles-emphasis-1{
+  color:rgba(255, 179, 65, 1);
+}
+.wrapp-content{
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  flex-wrap: nowrap;
+  grid-gap: 30px;
+  justify-content: space-around;
+}
+.num-1{
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.flex-wrapper-three{
+  margin: 0;
+}
+.kontent{
+  margin-top: 5vh;
+}
+.we-guarantee-our-customers-quality-work{
+  text-align: center;
+}
+  /* futter */
+  .futer{
+    height: 62vh;
+  }
+  .napolnenie{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+  }
+  .menju-two{
+    align-items: center;
+    height: 26vh;
+    flex-direction: column;
+  }
+}
+

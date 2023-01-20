@@ -144,7 +144,7 @@ a{
   flex-direction: column;
   position: sticky;
   top: 0;
-  z-index: 9999;
+  z-index: 3;
   height: 15vh;
 }
 .wrapp-hedder{
@@ -666,4 +666,170 @@ body.lock{
   margin-bottom: 30px;
   
   color: #323232
+}
+
+
+
+.header__burger{
+  display: none;
+}
+.body__burger{
+  display: none;
+}
+@media screen and (max-width:767px){
+  body{
+    overflow:auto;
+  }
+  .flex-wrapper-fourteen{
+    justify-content: space-between;
+    position: static;
+  }
+  .hedder{
+    height: 80px;
+    padding:  0 3vh;
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+  }
+  .header__burger{
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 25px;
+  }
+  .header__burger span{
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before,
+  .header__burger::after{
+    content: '';
+    background: #FFB341;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    border-radius: 65px;
+  }
+  .header__burger::before{
+    top: 0;
+  }
+  .header__burger::after{
+    bottom: 0;
+  }
+  .menju{
+    display: none;
+  }
+  
+  .jazyk{
+    display: none;
+  }
+  .jazyk_burger{
+    padding: 0 0 1.38px;
+    height: 46.23px;
+    width: 135px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body__burger.active{
+    height: 100%;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    grid-gap: 30px ;
+    top: 0;
+    right: 0;
+    background: #FFB341;
+    padding: 20px 10px 0 10px;
+    z-index: 9999;
+  }
+  .wrapp-language-cross{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .wrapp-language-cross img{
+    width: 25px;
+    height: 25px;
+  }
+  body.active{
+    overflow-y: hidden;
+  }
+  .menju__burger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .menju__burger a{
+    margin: 0 0 30px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: #FFFFFF;
+  }
+  /* main */
+  .informacija{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapp-product{
+    flex-direction: column-reverse;
+    width: 50vh;
+    height: 100%;
+    padding: 5vh;
+  }
+  .wrapp-product-services{
+    width: 34vh;
+    text-align: center;
+  }
+  .brandeme-provides-a-full-spectrum-of-mar{
+    height: 100%;
+  }
+  .digital-social-media-marketing-two{
+    height: 175px;
+    padding: 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .vektornij-smart-obekt-1{
+    height: 100px;
+    display: flex;
+    align-self: center;
+  }
+
+  /* futter */
+  .futer{
+    height: 62vh;
+  }
+  .napolnenie{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+  }
+  .menju-two{
+    align-items: center;
+    height: 26vh;
+    flex-direction: column;
+  }
 }

@@ -89,17 +89,14 @@ a{
   .flex-wrapper-fourteen {
     background-size: cover;
     background-position: center;
-    background-image: url("./bg-img/3.png");
     display: flex;
     background-image: cover;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-end;
     width: 100%;
     height: 70vh;
-    animation: change 10s infinite ease-in-out;
+    animation: change 20s infinite ease-in-out;
     /* align-items: flex-start; */
-  }
-  .wrapp-hedder{
   }
   .hedder {
     padding: 40px ;
@@ -111,7 +108,7 @@ a{
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 9999;
+    z-index: 5;
     background: rgba(255, 255, 255, 0.81);
   }
   .bg-header{
@@ -141,11 +138,8 @@ a{
     }
     100%
     {
-      background-image: url(./bg-img/4.png);
+      background-image: url(./bg-img/3.png);
     }
-  }
-  .header-logo-1 {
-
   }
   .menju {
     display: flex;
@@ -250,6 +244,7 @@ a{
   .kontent {
     margin: 0 auto;
     position: relative;
+    margin-bottom: 10vh;
   }
   .brandeme {
     display: flex;
@@ -569,23 +564,31 @@ a{
 .header__burger{
   display: none;
 }
+.body__burger{
+  display: none;
+}
 
 @media screen and (max-width:767px) {
+  .flex-wrapper-fourteen{
+    justify-content: space-between;
+  }
   .hedder{
     height: 80px;
+    padding:  0 3vh;
+    display: flex;
+    justify-content: space-between;
+    position: unset;
   }
   .header__burger{
     display: block;
     position: relative;
-    width: 35px;
+    width: 30px;
     height: 25px;
-    z-index: 3;
-    margin-right: 30px;
   }
   .header__burger span{
     background: #FFB341;
     width: 100%;
-    height: 2px;
+    height: 3px;
     position: absolute;
     top: 11px;
     left: 0;
@@ -596,11 +599,10 @@ a{
     content: '';
     background: #FFB341;
     width: 100%;
-    height: 2px;
+    height: 3px;
     position: absolute;
     left: 0;
     border-radius: 65px;
-
   }
   .header__burger::before{
     top: 0;
@@ -608,13 +610,68 @@ a{
   .header__burger::after{
     bottom: 0;
   }
-  .container{
-    position: fixed;
+  .menju{
+    display: none;
+  }
+  
+  .jazyk{
+    display: none;
+  }
+  .jazyk_burger{
+    padding: 0 0 1.38px;
+    height: 46.23px;
+    width: 135px;
+    border: 1px solid #D8D8D8;
+    border-radius: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .body__burger.active{
+    height: 100%;
+    width: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    grid-gap: 30px ;
     top: 0;
     right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #72913F;
+    background: #FFB341;
+    padding: 20px 10px 0 10px;
+    z-index: 99;
+  }
+  .wrapp-language-cross{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .wrapp-language-cross img{
+    width: 25px;
+    height: 25px;
+  }
+  body.active{
+    overflow-y: hidden;
+  }
+  .menju__burger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+  .menju__burger a{
+    margin: 0 0 30px 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
   }
   .rectangle-7{
     width: 336px;
@@ -650,6 +707,70 @@ a{
   .header-logo-1{
     width: 100px;
     height: 32px;
-    margin-left: 30px;
+  }
+  /* logo */
+  .wrapp-logotipy{
+    height: 45vh;
+  }
+  .logotipy{
+    height: 100%;
+  }
+  .inmobi-logo-c6149c0b2e-seeklogo{
+    width: 37;
+    height: 34px;
+  }
+  .m2o-logo-square{
+    width: 47.26px;
+    height: 16.13px;
+  }
+  .main-square{
+    width: 42.26px;
+    height: 38.92px;
+  }
+  .mediasmart{
+    width: 42.26px;
+    height: 29.47px;
+  }
+  .v-1606029317799-header-logo{
+    width: 42.82px;
+    height: 11.68px;
+  }
+  .vungle{
+    width: 42.26px;
+    height: 13.9px;
+  }
+  .shar-1{
+    width: 36.14px;
+    height: 35.03px;
+  }
+  .shar-2{
+    width: 46.15px;
+    height: 15.01px;
+  }
+  .shar-3{
+    width: 36.14px;
+    height: 25.58px;
+  }
+  .amazon-logo{
+    width: 50.04px;
+    height: 15.01px;
+  }
+  .gothamads{
+    width: 52.82px;
+    height: 18.91px;
+  }
+  /* futter */
+  .futer{
+    height: 62vh;
+  }
+  .napolnenie{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+  }
+  .menju-two{
+    align-items: center;
+    height: 26vh;
+    flex-direction: column;
   }
 }
