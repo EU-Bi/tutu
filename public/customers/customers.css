@@ -301,7 +301,7 @@ a{
   border-radius: 27px;
   height: 28vh;
   display: flex;
-  width: 90vh;
+  width: 45%;
   
   align-items: center;
   justify-content: space-around;
@@ -322,7 +322,7 @@ a{
   object-fit: cover;
 }
 .flex-wrapper-two-main {
-  width: 450px;
+  width: 45vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
