@@ -123,7 +123,7 @@ export const about={
     "ua":`Цілями нашої роботи є вирішення проблем і потреб клієнтів.`
   },
   "transparency":{
-    "en":`Transparency`,
+    "en":`Transparent & data-driven`,
     "ua":`Прозорість`
   },
   "transparency-guarantee-our-customers":{
@@ -132,7 +132,7 @@ export const about={
     "ua":`Завдяки нашій системі дашбордів ви бачите, на що витрачається ваш бюджет.`
   },
   "technology":{
-    "en":`Technology`,
+    "en":`Technology & Innovation`,
     "ua":`Технології`
   },
   "technology-our-customers-quality":{
