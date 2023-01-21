@@ -340,6 +340,7 @@ a{
 }
 .free-icon-at-88279 {
   margin-right: 2vh;
+  object-fit: contain;
 }
 .email {
   color: var(--dark-slate-gray-7);
