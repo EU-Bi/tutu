@@ -58,10 +58,7 @@ export const about={
     "ua":"Контакти"
   },
   "brandemeis":{
-    "en":`Brandeme is a multi-channel marketing agency helping
-    companies expand their business through strategic
-    online advertising and end-to-end marketing
-    solutions.<br />
+    "en":`Brandeme   ⁣⁣⁣is   a   multi-channel   marketing   agency  helping companies expand their business through strategic online advertising and end-to-end marketing solutions.<br />
     Our integrated approach and unrivalled expertise
     allow clients to discover new market opportunities
     and see better results and traffic for their
@@ -81,12 +78,12 @@ export const about={
     We create effective ad campaigns on the most
     influential demand-side platforms. 
     <br />
-    Before starting we always carry out in-depth
-    research of the market niché you want to take in a
-    desired region of EMEA. Careful planning of the
-    future strategy with a segment overview, competitors
-    positioning, customers analysis and a sales forecast
-    guarantee us a long-term success.<br />`,
+    Before  starting  we  always  carry  out in-depth
+research of the market niché you want to take in a
+desired region of EMEA. Careful planning of the
+future strategy with a segment overview, competitors
+positioning, customers analysis and a sales forecast
+guarantee us a long-term success.<br />`,
     "ua":"Brandeme - це багатоканальне маркетингове агентство, яке допомагає компаніям розширювати свій бізнес за допомогою стратегічної інтернет-реклами та комплексних маркетингових рішень.<br /> Наш комплексний підхід та неперевершена експертиза дозволяють клієнтам відкривати для себе нові ринкові можливості та бачити кращі результати та трафік для свого бренду.<br />Brandeme допоможе вам орієнтуватися на потрібну аудиторію в потрібних місцях у правильний спосіб і будувати свій бізнес за допомогою переконливого маркетингу.<br />Brandeme - агентство цифрового маркетингу, що спеціалізується на інтернет-рекламі та медіа-баїнгу. Вона надає комплексні послуги з маркетингу та цифрової підтримки для залучення трафіку та покращення онлайн-результатів для клієнтів, які прагнуть розширити свій бренд для нових покупців.<br />Brandeme також дозволяє компаніям встановити власність та автономію над своїми маркетинговими зусиллями за допомогою наших індивідуальних послуг з аналізу кампаній та відповідної статистики.<br />Ми створюємо ефективні рекламні кампанії на найвпливовіших платформах з боку попиту.<br />Перед початком роботи ми завжди проводимо глибоке дослідження ринкової ніші, яку ви хочете зайняти в бажаному регіоні EMEA. Ретельне планування майбутньої стратегії з оглядом сегментів, позиціонуванням конкурентів, аналізом клієнтів і прогнозом продажів гарантує нам довгостроковий успіх.<br /><br />"
   },
   "ourvalues":{

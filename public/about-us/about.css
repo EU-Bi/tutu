@@ -271,7 +271,7 @@ a{
 .brandeme-is-a-multi-channel-marketing-ag {
   width: 130vh;
   color: var(--dark-slate-gray);
-  display: flex;
+  text-align: justify;
   margin-left: 3px;
   font-family: 'Inter';
   font-style: normal;
