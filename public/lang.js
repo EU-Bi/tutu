@@ -121,7 +121,7 @@ guarantee us a long-term success.<br />`,
   },
   "transparency":{
     "en":`Transparent & data-driven`,
-    "ua":`Прозорість`
+    "ua":`Прозорість & управ.данними`
   },
   "transparency-guarantee-our-customers":{
     "en":`With our unique dashboard system we let you see
@@ -130,7 +130,7 @@ guarantee us a long-term success.<br />`,
   },
   "technology":{
     "en":`Technology & Innovation`,
-    "ua":`Технології`
+    "ua":`Технології & інновації`
   },
   "technology-our-customers-quality":{
     "en":`We use leading technologies and advanced platforms
