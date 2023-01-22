@@ -370,6 +370,7 @@ a{
   text-align: left;
   padding-left: 2.5vh;
   border: 0;
+  cursor: pointer;
 }
 .ukraine{
   margin: 2.6vh 0 4.5vh 0;
@@ -520,8 +521,12 @@ button{
   /* or 34px */
 
   text-align: center;
-
+  cursor: pointer;
   color: #FFFFFF;
+}
+.button:hover{
+  background-color: #72913F;
+  color: azure;
 }
 /* futter */
 .futer {
@@ -675,7 +680,7 @@ body.lock{
   height: 79px;
   justify-content: center;
   align-items: center;
-
+  cursor: pointer;
   text-decoration: none;
 
   background: #FFB341;

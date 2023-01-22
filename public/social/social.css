@@ -314,8 +314,12 @@ a{
   font-size: var(--inter-16-medium-size);
   font-weight: var(--inter-16-medium-weight);
   line-height: var(--inter-16-medium-line-height);
+  cursor: pointer;
 }
-
+.knopka:hover{
+  background-color: #72913F;
+  color: azure;
+}
 /* futter */
 .futer {
   background-color: var(--sandy-brown);
