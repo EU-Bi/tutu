@@ -170,6 +170,7 @@ a{
 }
 .header-logo-1 {
   height: 7vh;
+  cursor: pointer;
 }
 .menju {
   display: flex;

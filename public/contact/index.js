@@ -319,3 +319,11 @@ function bodyUnLock(){
       }
     })
   })
+
+const logo = document.querySelector('.header-logo-1')
+
+logo.addEventListener('click', (e)=>{
+  e.preventDefault()
+  e.stopPropagation()
+  location.href= '../index.html'
+})
