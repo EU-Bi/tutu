@@ -309,7 +309,7 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1300px;
   height: 100%;
   justify-content: center;
 }
