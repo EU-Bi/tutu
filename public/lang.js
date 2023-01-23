@@ -9,11 +9,11 @@ export const home={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",
@@ -43,11 +43,11 @@ export const about={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",
@@ -159,11 +159,11 @@ export const product={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",
@@ -197,7 +197,7 @@ export const product={
   },
   "digital-social":{
     "en":`Digital &amp; Social Media Marketing`,
-    "ua":"Цифровий маркетинг та маркетинг у соц.мережах"
+    "ua":"Цифровий маркетинг та маркетинг у соц. мережах"
   },
   "button":{
     "en":"Read more",
@@ -266,11 +266,11 @@ export const customers={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",
@@ -316,11 +316,11 @@ export const social={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",
@@ -346,11 +346,11 @@ export const contact={
   },
   "product":{
     "en":"Product & Services",
-    "ua":"Продукт & Послуги"
+    "ua":"Продукт та Послуги"
   },
   "customers":{
     "en":"Сustomers & Testimonies",
-    "ua":"Клієнти & Відгуки"
+    "ua":"Клієнти та Відгуки"
   },
   "social":{
     "en":"Social Media",

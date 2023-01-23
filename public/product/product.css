@@ -358,7 +358,7 @@ a{
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 2vh;
   line-height: 148.02%;
 }
 .knopka {
@@ -435,7 +435,7 @@ input{
   border: 0;
   width: 324.82px;
   height: 52px;
-  margin-bottom: 27px;
+  margin-bottom: 2vh;
   text-align: center;
 
   font-family: 'Inter';
