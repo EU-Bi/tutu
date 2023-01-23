@@ -260,6 +260,7 @@ a{
   flex-direction: column;
   align-items: flex-start;
 }
+
 .about-us-two {
   color: var(--dark-slate-gray-4);
   display: flex;
@@ -309,9 +310,9 @@ a{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 140vh;
+  width: 80%;
   height: 100%;
-  grid-gap: 20px;
+  grid-gap: 2vh;
   justify-content: center;
 }
 .num-1 {
@@ -329,6 +330,12 @@ a{
   justify-content: center;
   align-items: center;
 }
+.kontent-p{
+  display: flex;
+  width: 35vh;
+  flex-direction: column;
+  align-items: flex-start;
+}
 .shield-1 {
   height: 48px;
 }
@@ -343,7 +350,6 @@ a{
 }
 .we-guarantee-our-customers-quality-work {
   height: 63px;
-  width: 230px;
   color: var(--dark-slate-gray);
   display: flex;
   font-family: var(--inter-16-light-family);
@@ -638,6 +644,11 @@ a{
   margin-top: 9vh;
 }
 .kontent{
+  width: 100%;
+  align-items: center;
+}
+.kontent-p{
+  margin-top: 2vh;
   width: 100%;
   align-items: center;
 }
