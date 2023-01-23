@@ -92,7 +92,7 @@ guarantee us a long-term success.<br />`,
     <strong class="our-values-principles-emphasis-1"
       >Цінності</strong
     >
-    &amp; Принципи`
+    та Принципи`
   },
   "relibility":{
     "en":`Relibility`,
@@ -121,7 +121,7 @@ guarantee us a long-term success.<br />`,
   },
   "transparency":{
     "en":`Transparent & data-driven`,
-    "ua":`Прозорість та управ.данними`
+    "ua":`Прозорість та управління данними`
   },
   "transparency-guarantee-our-customers":{
     "en":`With our unique dashboard system we let you see

@@ -330,15 +330,14 @@ a{
   align-items: center;
 }
 .shield-1 {
-  width: 48px;
   height: 48px;
 }
 .relibility {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
@@ -367,9 +366,9 @@ a{
 .strategy-efficiency {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
@@ -388,9 +387,9 @@ a{
 .customer-driven-results {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
@@ -409,9 +408,9 @@ a{
 .transparency {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
@@ -426,9 +425,9 @@ a{
 .technology {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
@@ -447,9 +446,9 @@ a{
 .professionalism {
   color: var(--dark-slate-gray);
   display: flex;
-  margin-bottom: 18px;
+  margin-bottom: 1.2vh;
   font-family: var(--inter-20-medium-2-family);
-  font-size: 2vh;
+  font-size: 20px;
   font-weight: var(--inter-20-medium-2-weight);
   line-height: var(--inter-20-medium-2-line-height);
 }
