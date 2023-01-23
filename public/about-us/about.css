@@ -334,7 +334,6 @@ a{
   height: 48px;
 }
 .relibility {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -366,7 +365,6 @@ a{
   height: 51px;
 }
 .strategy-efficiency {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -388,7 +386,6 @@ a{
   height: 46px;
 }
 .customer-driven-results {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -410,7 +407,6 @@ a{
   align-items: center;
 }
 .transparency {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -428,7 +424,6 @@ a{
   align-items: center;
 }
 .technology {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -450,7 +445,6 @@ a{
   height: 82px;
 }
 .professionalism {
-  height: 16px;
   color: var(--dark-slate-gray);
   display: flex;
   margin-bottom: 18px;
@@ -676,6 +670,7 @@ a{
   height: 100%;
   flex-wrap: nowrap;
   grid-gap: 30px;
+  align-items: center;
   justify-content: space-around;
 }
 .num-1{
@@ -690,6 +685,14 @@ a{
   margin-top: 5vh;
 }
 .we-guarantee-our-customers-quality-work{
+  text-align: center;
+}
+.strategy-efficiency,
+.technology,
+.customer-driven-results,
+.transparency,
+.professionalism,
+.relibility{
   text-align: center;
 }
   /* futter */
